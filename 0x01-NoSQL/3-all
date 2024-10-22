@@ -1,0 +1,3 @@
+//list all documents inschool collection
+
+db.school.find().forEach(printjson)
